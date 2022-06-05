@@ -28,7 +28,7 @@ GPIO.setup(rs485_pin, GPIO.OUT)
 GPIO.output(rs485_pin, GPIO.HIGH)
 
 #b'{"bicycleId":"bike001","unlocking":true,"secretKey":251449}'
-
+# added test comment
 
 try:
     ser = serial.Serial(
